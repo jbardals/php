@@ -1,4 +1,4 @@
-ransferencia de datos vía $_POST
+Transferencia de datos vía $_POST
 Mientras que los datos que se transfieren mediante el método GET se entregan como parámetros URL, la transferencia de datos vía $_POST se realiza en el cuerpo de una petición HTTP. Esto permite a los desarrolladores transferir grandes cantidades de datos de un script a otro.
 
 Un campo de aplicación esencial del método HTTP-POST es la transmisión de datos de formulariosHTML.
