@@ -53,7 +53,7 @@ function tipo_fichero ($extension)
 //Calculamos extension y tipo de fichero
    $extension = calcula_extension ($fichero);
    $tipo = tipo_fichero ($extension);
-   print ("El fichero '$fichero' es de tipo '$tipo'.\n");
+   print ("El fichero '$fichero' es de tipo '$tipo'y de extension $extension.\n");
 ?>
 
 </BODY>

@@ -11,5 +11,7 @@ foreach($example as $value){
     echo $value;
 }*/
 
+echo readfile("webdictionary.txt");
+
 ?>
 
