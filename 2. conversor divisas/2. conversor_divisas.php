@@ -17,11 +17,12 @@
    print ("   <TH>Euros</TH>\n");
    print ("   <TH>Pesetas</TH>\n");
    print ("</TR>\n");
-   for ($i=1; $i<=10; $i++)
+   for ($i=2; $i<=10; $i=$i+2)
    {
+      $pesetas[i]= $i*EUROPTS;
       print ("<TR ALIGN='CENTER'>\n");
       print ("   <TD>$i</TD>\n");
-      print ("   <TD>" . $i*EUROPTS . "</TD>\n");
+      print ("   <TD>" . $pesetas[i] . "</TD>\n");
       print ("</TR>\n");
    }
    print ("</TABLE>\n");
