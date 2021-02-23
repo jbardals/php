@@ -4,6 +4,7 @@ session_start();
 <html>
  <body>
 <?php
+echo "sessionuser ".$_SESSION["usuario"];
 if (isset($_SESSION["usuario"])) {
     // Generando ID único, podríamos usar la id de sesión  
     $_SESSION["token"] = md5(uniqid(mt_rand(), true));

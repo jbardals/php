@@ -1,5 +1,6 @@
 <?php
 session_start();
+print "gettoken ".$GET["token"]." sesiontoken ".$_SESSION["token"];
 if (isset($_GET["token"]) && $_GET["token"] == $_SESSION["token"]) {
     switch($_GET["accion"]) {
         case "login":
