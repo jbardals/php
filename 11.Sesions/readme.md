@@ -6,7 +6,7 @@ As sesións son un mecanismo que utilizan o servidor web para gardar informació
 
 A diferenza con respecto ás cookies é que mediante as cookies a información se garda no ordenador do usuario e se envía en cada petición ao servidor, mentres que mediante as sesións, a información gárdase no servidor. De todos os xeitos, o uso de sesións implicará a creación dunha cookie. No uso das sesións distínguense as seguintes tarefas: creación ou apertura da sesión, utilización da sesión e destrución ou peche da sesión.
 
-## Creación o apertura da sesión
+## Creación o apertura da sesión.
 
 Cando algunha páxina crea unha sesión, facendo uso da función correspondente, o servidor asocia ao navegador do usuario un identificador de usuario único. Este identificador de usuario único se garda en forma de cookie. Se o navegador non permite a creación de cookies, existe a posibilidade de que o identificador do usuario se inclúa na dirección da páxina, o cal pode supoñer un risco de seguridade.
 
